@@ -25,9 +25,6 @@ protected:
     void sendEndGameSignal();
     void doComputerStep();
 
-/*public:
-    Game();*/
-
 public slots:
     void startGame(QString symbol);
     void changeFieldAfterHumanStep(int x, int y);
