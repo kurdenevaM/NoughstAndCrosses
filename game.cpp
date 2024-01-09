@@ -1,16 +1,8 @@
 #include "game.h"
 
-/*Game::Game()
-{
-    field = Field();
-}*/
-
 void Game::initialGame(QString symbol)
 {
     field = Field();
-    /*for (int i = 0; i < field.getHeight(); i++)
-        for (int j = 0; j < field.getWidth(); j++)
-            field.getCell(i, j)->setCondition(Empty);*/
 
     if (symbol == "X")
     {
